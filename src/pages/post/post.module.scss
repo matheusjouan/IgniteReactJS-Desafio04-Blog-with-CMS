@@ -79,3 +79,63 @@
     }
   }
 }
+
+.updatedPost {
+  display: block;
+  margin-top: 18px;
+  color: var(--info);
+  line-height: 14px;
+  font-style: italic;
+}
+.postPagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 48px;
+  margin-top: 60px;
+  border-top: 1px solid rgba(215, 215, 215, 0.1);
+
+
+  div {
+    p {
+      display: block;
+      font-size: 18px;
+      color: var(--heading);
+      line-height: 22px;
+    }
+
+    a {
+      color: var(--highlight);
+      font-size: 16px;
+      margin-top: 8px;
+      display: block;
+      font-weight: 600;
+    }
+
+    &.nextPost {
+      align-self: flex-end;
+      margin-right: auto;
+
+    }
+
+    &.prevPost {
+      margin-left: auto;
+    }
+
+  }
+}
+
+.buttonModePreview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  width: 100%;
+  height: 58px;
+  background: var(--heading);
+  margin: 88px 0px 106px;
+  color: var(--background);
+  font-size: 1.125rem;
+  font-weight: 600;
+  cursor: pointer;
+}
